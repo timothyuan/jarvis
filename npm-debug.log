@@ -1,0 +1,1344 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'onoff',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData onoff
+8 silly fetchNamedPackageData onoff
+9 silly mapToRegistry name onoff
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'onoff',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'onoff',
+12 silly mapToRegistry   name: 'onoff',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/onoff
+14 verbose request uri https://registry.npmjs.org/onoff
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 2:47:27 PM
+17 verbose request id d33cb38c27e3fac4
+18 http request GET https://registry.npmjs.org/onoff
+19 http 200 https://registry.npmjs.org/onoff
+20 verbose headers { date: 'Sun, 24 Jun 2018 21:47:28 GMT',
+20 verbose headers   'content-type': 'application/json; charset=UTF-8',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'set-cookie': [ '__cfduid=d43b9857a23afc273aaefb62d5c541dc31529876848; expires=Mon, 24-Jun-19 21:47:28 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'cf-cache-status': 'REVALIDATED',
+20 verbose headers   'cf-ray': '4302649e8dfc6cb8-SJC',
+20 verbose headers   etag: 'W/"31a0aedb92bbc9449887ea9b04f65e4e"',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   'last-modified': 'Sun, 27 May 2018 11:13:02 GMT',
+20 verbose headers   vary: 'accept-encoding, accept',
+20 verbose headers   server: 'cloudflare',
+20 verbose headers   'content-encoding': 'gzip' }
+21 silly get cb [ 200,
+21 silly get   { date: 'Sun, 24 Jun 2018 21:47:28 GMT',
+21 silly get     'content-type': 'application/json; charset=UTF-8',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'set-cookie': [ '__cfduid=d43b9857a23afc273aaefb62d5c541dc31529876848; expires=Mon, 24-Jun-19 21:47:28 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'cf-cache-status': 'REVALIDATED',
+21 silly get     'cf-ray': '4302649e8dfc6cb8-SJC',
+21 silly get     etag: 'W/"31a0aedb92bbc9449887ea9b04f65e4e"',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     'last-modified': 'Sun, 27 May 2018 11:13:02 GMT',
+21 silly get     vary: 'accept-encoding, accept',
+21 silly get     server: 'cloudflare',
+21 silly get     'content-encoding': 'gzip' } ]
+22 verbose get saving onoff to C:\Users\xiany\AppData\Roaming\npm-cache\registry.npmjs.org\onoff\.cache.json
+23 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule onoff@3.1.0 checking installable status
+37 silly cache add args [ 'onoff', null ]
+38 verbose cache add spec onoff
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'onoff',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'onoff',
+39 silly cache add   name: 'onoff',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed onoff@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for onoff
+42 info addNameTag [ 'onoff', 'latest' ]
+43 silly mapToRegistry name onoff
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'onoff',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'onoff',
+46 silly mapToRegistry   name: 'onoff',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/onoff
+48 verbose addNameTag registry:https://registry.npmjs.org/onoff not in flight; fetching
+49 verbose get https://registry.npmjs.org/onoff not expired, no request
+50 silly addNameTag next cb for onoff with tag latest
+51 silly addNamed onoff@3.1.0
+52 verbose addNamed "3.1.0" is a plain semver version for onoff
+53 silly mapToRegistry name onoff
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'onoff',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'onoff',
+56 silly mapToRegistry   name: 'onoff',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/onoff
+58 verbose addRemoteTarball https://registry.npmjs.org/onoff/-/onoff-3.1.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/onoff/-/onoff-3.1.0.tgz',
+59 verbose addRemoteTarball   '90bfb4d689c60842086b0d237d36cd9b84fffddf' ]
+60 info retry fetch attempt 1 at 2:47:28 PM
+61 info attempt registry request try #1 at 2:47:28 PM
+62 http fetch GET https://registry.npmjs.org/onoff/-/onoff-3.1.0.tgz
+63 http fetch 200 https://registry.npmjs.org/onoff/-/onoff-3.1.0.tgz
+64 silly fetchAndShaCheck shasum 90bfb4d689c60842086b0d237d36cd9b84fffddf
+65 verbose addTmpTarball C:\Users\xiany\AppData\Local\Temp\npm-6780-1f37bd78\registry.npmjs.org\onoff\-\onoff-3.1.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for onoff@3.1.0
+67 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd onoff@3.1.0
+69 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\onoff\3.1.0\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\onoff\3.1.0\package\package.json written
+72 silly fetchNamedPackageData epoll
+73 silly mapToRegistry name epoll
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'epoll',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'epoll',
+76 silly mapToRegistry   name: 'epoll',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/epoll
+78 silly fetchNamedPackageData lodash.debounce
+79 silly mapToRegistry name lodash.debounce
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'lodash.debounce',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'lodash.debounce',
+82 silly mapToRegistry   name: 'lodash.debounce',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/lodash.debounce
+84 verbose request uri https://registry.npmjs.org/epoll
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 2:47:28 PM
+87 http request GET https://registry.npmjs.org/epoll
+88 verbose request uri https://registry.npmjs.org/lodash.debounce
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 2:47:28 PM
+91 http request GET https://registry.npmjs.org/lodash.debounce
+92 http 200 https://registry.npmjs.org/lodash.debounce
+93 verbose headers { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+93 verbose headers   'content-type': 'application/json; charset=UTF-8',
+93 verbose headers   'transfer-encoding': 'chunked',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'set-cookie': [ '__cfduid=d5133b7267449ff2d5c9bdaf9e645477c1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+93 verbose headers   'cache-control': 'max-age=300',
+93 verbose headers   'cf-cache-status': 'HIT',
+93 verbose headers   'cf-ray': '430264a2f9a16c70-SJC',
+93 verbose headers   etag: 'W/"7d862cb348964d69ec9bb81e41bd708c"',
+93 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+93 verbose headers   'last-modified': 'Sun, 27 May 2018 06:58:20 GMT',
+93 verbose headers   vary: 'accept-encoding, accept',
+93 verbose headers   server: 'cloudflare',
+93 verbose headers   'content-encoding': 'gzip' }
+94 silly get cb [ 200,
+94 silly get   { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+94 silly get     'content-type': 'application/json; charset=UTF-8',
+94 silly get     'transfer-encoding': 'chunked',
+94 silly get     connection: 'keep-alive',
+94 silly get     'set-cookie': [ '__cfduid=d5133b7267449ff2d5c9bdaf9e645477c1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+94 silly get     'cache-control': 'max-age=300',
+94 silly get     'cf-cache-status': 'HIT',
+94 silly get     'cf-ray': '430264a2f9a16c70-SJC',
+94 silly get     etag: 'W/"7d862cb348964d69ec9bb81e41bd708c"',
+94 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+94 silly get     'last-modified': 'Sun, 27 May 2018 06:58:20 GMT',
+94 silly get     vary: 'accept-encoding, accept',
+94 silly get     server: 'cloudflare',
+94 silly get     'content-encoding': 'gzip' } ]
+95 verbose get saving lodash.debounce to C:\Users\xiany\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.debounce\.cache.json
+96 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+97 silly resolveWithNewModule lodash.debounce@4.0.8 checking installable status
+98 silly cache add args [ 'lodash.debounce@^4.0.8', null ]
+99 verbose cache add spec lodash.debounce@^4.0.8
+100 silly cache add parsed spec Result {
+100 silly cache add   raw: 'lodash.debounce@^4.0.8',
+100 silly cache add   scope: null,
+100 silly cache add   escapedName: 'lodash.debounce',
+100 silly cache add   name: 'lodash.debounce',
+100 silly cache add   rawSpec: '^4.0.8',
+100 silly cache add   spec: '>=4.0.8 <5.0.0',
+100 silly cache add   type: 'range' }
+101 silly addNamed lodash.debounce@>=4.0.8 <5.0.0
+102 verbose addNamed ">=4.0.8 <5.0.0" is a valid semver range for lodash.debounce
+103 silly addNameRange { name: 'lodash.debounce',
+103 silly addNameRange   range: '>=4.0.8 <5.0.0',
+103 silly addNameRange   hasData: false }
+104 silly mapToRegistry name lodash.debounce
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'lodash.debounce',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'lodash.debounce',
+107 silly mapToRegistry   name: 'lodash.debounce',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/lodash.debounce
+109 verbose addNameRange registry:https://registry.npmjs.org/lodash.debounce not in flight; fetching
+110 verbose get https://registry.npmjs.org/lodash.debounce not expired, no request
+111 silly addNameRange number 2 { name: 'lodash.debounce',
+111 silly addNameRange   range: '>=4.0.8 <5.0.0',
+111 silly addNameRange   hasData: true }
+112 silly addNameRange versions [ 'lodash.debounce',
+112 silly addNameRange   [ '2.0.0',
+112 silly addNameRange     '2.1.0',
+112 silly addNameRange     '2.2.0',
+112 silly addNameRange     '2.2.1',
+112 silly addNameRange     '2.3.0',
+112 silly addNameRange     '2.4.0',
+112 silly addNameRange     '2.4.1',
+112 silly addNameRange     '3.0.0',
+112 silly addNameRange     '3.0.1',
+112 silly addNameRange     '3.0.2',
+112 silly addNameRange     '3.0.3',
+112 silly addNameRange     '3.1.0',
+112 silly addNameRange     '3.1.1',
+112 silly addNameRange     '4.0.0',
+112 silly addNameRange     '4.0.1',
+112 silly addNameRange     '4.0.2',
+112 silly addNameRange     '4.0.3',
+112 silly addNameRange     '4.0.4',
+112 silly addNameRange     '4.0.5',
+112 silly addNameRange     '4.0.6',
+112 silly addNameRange     '4.0.7',
+112 silly addNameRange     '4.0.8' ] ]
+113 silly addNamed lodash.debounce@4.0.8
+114 verbose addNamed "4.0.8" is a plain semver version for lodash.debounce
+115 silly mapToRegistry name lodash.debounce
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'lodash.debounce',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   escapedName: 'lodash.debounce',
+118 silly mapToRegistry   name: 'lodash.debounce',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag' }
+119 silly mapToRegistry uri https://registry.npmjs.org/lodash.debounce
+120 verbose addRemoteTarball https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz not in flight; adding
+121 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz',
+121 verbose addRemoteTarball   '82d79bff30a67c4005ffd5e2515300ad9ca4d7af' ]
+122 info retry fetch attempt 1 at 2:47:28 PM
+123 info attempt registry request try #1 at 2:47:28 PM
+124 http fetch GET https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz
+125 http 200 https://registry.npmjs.org/epoll
+126 verbose headers { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+126 verbose headers   'content-type': 'application/json; charset=UTF-8',
+126 verbose headers   'transfer-encoding': 'chunked',
+126 verbose headers   connection: 'keep-alive',
+126 verbose headers   'set-cookie': [ '__cfduid=da6068f495b7aa306c0d6c365e905cc3d1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+126 verbose headers   'cache-control': 'max-age=300',
+126 verbose headers   'cf-cache-status': 'REVALIDATED',
+126 verbose headers   'cf-ray': '430264a2bebe6cb8-SJC',
+126 verbose headers   etag: 'W/"2f1c9eeac077fb02db03bb8834d8fc9c"',
+126 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+126 verbose headers   'last-modified': 'Sat, 26 May 2018 23:38:30 GMT',
+126 verbose headers   vary: 'accept-encoding, accept',
+126 verbose headers   server: 'cloudflare',
+126 verbose headers   'content-encoding': 'gzip' }
+127 silly get cb [ 200,
+127 silly get   { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+127 silly get     'content-type': 'application/json; charset=UTF-8',
+127 silly get     'transfer-encoding': 'chunked',
+127 silly get     connection: 'keep-alive',
+127 silly get     'set-cookie': [ '__cfduid=da6068f495b7aa306c0d6c365e905cc3d1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+127 silly get     'cache-control': 'max-age=300',
+127 silly get     'cf-cache-status': 'REVALIDATED',
+127 silly get     'cf-ray': '430264a2bebe6cb8-SJC',
+127 silly get     etag: 'W/"2f1c9eeac077fb02db03bb8834d8fc9c"',
+127 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+127 silly get     'last-modified': 'Sat, 26 May 2018 23:38:30 GMT',
+127 silly get     vary: 'accept-encoding, accept',
+127 silly get     server: 'cloudflare',
+127 silly get     'content-encoding': 'gzip' } ]
+128 verbose get saving epoll to C:\Users\xiany\AppData\Roaming\npm-cache\registry.npmjs.org\epoll\.cache.json
+129 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+130 silly resolveWithNewModule epoll@2.0.1 checking installable status
+131 silly cache add args [ 'epoll@^2.0.1', null ]
+132 verbose cache add spec epoll@^2.0.1
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'epoll@^2.0.1',
+133 silly cache add   scope: null,
+133 silly cache add   escapedName: 'epoll',
+133 silly cache add   name: 'epoll',
+133 silly cache add   rawSpec: '^2.0.1',
+133 silly cache add   spec: '>=2.0.1 <3.0.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed epoll@>=2.0.1 <3.0.0
+135 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for epoll
+136 silly addNameRange { name: 'epoll', range: '>=2.0.1 <3.0.0', hasData: false }
+137 silly mapToRegistry name epoll
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'epoll',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'epoll',
+140 silly mapToRegistry   name: 'epoll',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/epoll
+142 verbose addNameRange registry:https://registry.npmjs.org/epoll not in flight; fetching
+143 http fetch 200 https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz
+144 verbose get https://registry.npmjs.org/epoll not expired, no request
+145 silly addNameRange number 2 { name: 'epoll', range: '>=2.0.1 <3.0.0', hasData: true }
+146 silly addNameRange versions [ 'epoll',
+146 silly addNameRange   [ '0.0.1',
+146 silly addNameRange     '0.0.2',
+146 silly addNameRange     '0.0.3',
+146 silly addNameRange     '0.0.4',
+146 silly addNameRange     '0.0.5',
+146 silly addNameRange     '0.0.6',
+146 silly addNameRange     '0.0.7',
+146 silly addNameRange     '0.0.8',
+146 silly addNameRange     '0.1.0',
+146 silly addNameRange     '0.1.1',
+146 silly addNameRange     '0.1.2',
+146 silly addNameRange     '0.1.3',
+146 silly addNameRange     '0.1.4',
+146 silly addNameRange     '0.1.5',
+146 silly addNameRange     '0.1.7',
+146 silly addNameRange     '0.1.8',
+146 silly addNameRange     '0.1.9',
+146 silly addNameRange     '0.1.10',
+146 silly addNameRange     '0.1.11',
+146 silly addNameRange     '0.1.12',
+146 silly addNameRange     '0.1.13',
+146 silly addNameRange     '0.1.14',
+146 silly addNameRange     '0.1.15',
+146 silly addNameRange     '0.1.16',
+146 silly addNameRange     '0.1.17',
+146 silly addNameRange     '0.1.18',
+146 silly addNameRange     '0.1.19',
+146 silly addNameRange     '0.1.20',
+146 silly addNameRange     '0.1.21',
+146 silly addNameRange     '0.1.22',
+146 silly addNameRange     '1.0.0',
+146 silly addNameRange     '1.0.1',
+146 silly addNameRange     '1.0.2',
+146 silly addNameRange     '2.0.0',
+146 silly addNameRange     '2.0.1' ] ]
+147 silly addNamed epoll@2.0.1
+148 verbose addNamed "2.0.1" is a plain semver version for epoll
+149 silly fetchAndShaCheck shasum 82d79bff30a67c4005ffd5e2515300ad9ca4d7af
+150 silly mapToRegistry name epoll
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'epoll',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   escapedName: 'epoll',
+153 silly mapToRegistry   name: 'epoll',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/epoll
+155 verbose addRemoteTarball https://registry.npmjs.org/epoll/-/epoll-2.0.1.tgz not in flight; adding
+156 verbose addRemoteTarball [ 'https://registry.npmjs.org/epoll/-/epoll-2.0.1.tgz',
+156 verbose addRemoteTarball   '4742f963048fab6ad4347f678b0e9e38d58a417e' ]
+157 verbose addTmpTarball C:\Users\xiany\AppData\Local\Temp\npm-6780-1f37bd78\registry.npmjs.org\lodash.debounce\-\lodash.debounce-4.0.8.tgz not in flight; adding
+158 verbose addTmpTarball already have metadata; skipping unpack for lodash.debounce@4.0.8
+159 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+160 info retry fetch attempt 1 at 2:47:28 PM
+161 info attempt registry request try #1 at 2:47:28 PM
+162 http fetch GET https://registry.npmjs.org/epoll/-/epoll-2.0.1.tgz
+163 silly cache afterAdd lodash.debounce@4.0.8
+164 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\lodash.debounce\4.0.8\package\package.json not in flight; writing
+165 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+166 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\lodash.debounce\4.0.8\package\package.json written
+167 http fetch 200 https://registry.npmjs.org/epoll/-/epoll-2.0.1.tgz
+168 silly fetchAndShaCheck shasum 4742f963048fab6ad4347f678b0e9e38d58a417e
+169 verbose addTmpTarball C:\Users\xiany\AppData\Local\Temp\npm-6780-1f37bd78\registry.npmjs.org\epoll\-\epoll-2.0.1.tgz not in flight; adding
+170 verbose addTmpTarball already have metadata; skipping unpack for epoll@2.0.1
+171 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+172 silly cache afterAdd epoll@2.0.1
+173 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\epoll\2.0.1\package\package.json not in flight; writing
+174 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+175 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\epoll\2.0.1\package\package.json written
+176 silly fetchNamedPackageData bindings
+177 silly mapToRegistry name bindings
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry https://registry.npmjs.org/
+180 silly mapToRegistry data Result {
+180 silly mapToRegistry   raw: 'bindings',
+180 silly mapToRegistry   scope: null,
+180 silly mapToRegistry   escapedName: 'bindings',
+180 silly mapToRegistry   name: 'bindings',
+180 silly mapToRegistry   rawSpec: '',
+180 silly mapToRegistry   spec: 'latest',
+180 silly mapToRegistry   type: 'tag' }
+181 silly mapToRegistry uri https://registry.npmjs.org/bindings
+182 silly fetchNamedPackageData nan
+183 silly mapToRegistry name nan
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry data Result {
+186 silly mapToRegistry   raw: 'nan',
+186 silly mapToRegistry   scope: null,
+186 silly mapToRegistry   escapedName: 'nan',
+186 silly mapToRegistry   name: 'nan',
+186 silly mapToRegistry   rawSpec: '',
+186 silly mapToRegistry   spec: 'latest',
+186 silly mapToRegistry   type: 'tag' }
+187 silly mapToRegistry uri https://registry.npmjs.org/nan
+188 verbose request uri https://registry.npmjs.org/bindings
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 2:47:28 PM
+191 http request GET https://registry.npmjs.org/bindings
+192 verbose request uri https://registry.npmjs.org/nan
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 2:47:28 PM
+195 verbose etag "5aabecc7-229f2"
+196 verbose lastModified Fri, 16 Mar 2018 16:11:51 GMT
+197 http request GET https://registry.npmjs.org/nan
+198 http 200 https://registry.npmjs.org/bindings
+199 verbose headers { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+199 verbose headers   'content-type': 'application/json; charset=UTF-8',
+199 verbose headers   'transfer-encoding': 'chunked',
+199 verbose headers   connection: 'keep-alive',
+199 verbose headers   'set-cookie': [ '__cfduid=d5133b7267449ff2d5c9bdaf9e645477c1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+199 verbose headers   'cache-control': 'max-age=300',
+199 verbose headers   'cf-cache-status': 'HIT',
+199 verbose headers   'cf-ray': '430264a529f86c70-SJC',
+199 verbose headers   etag: 'W/"032d1e4fd790b7bf3a22d4035271b1a6"',
+199 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+199 verbose headers   'last-modified': 'Sat, 26 May 2018 02:07:16 GMT',
+199 verbose headers   vary: 'accept-encoding, accept',
+199 verbose headers   server: 'cloudflare',
+199 verbose headers   'content-encoding': 'gzip' }
+200 silly get cb [ 200,
+200 silly get   { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+200 silly get     'content-type': 'application/json; charset=UTF-8',
+200 silly get     'transfer-encoding': 'chunked',
+200 silly get     connection: 'keep-alive',
+200 silly get     'set-cookie': [ '__cfduid=d5133b7267449ff2d5c9bdaf9e645477c1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+200 silly get     'cache-control': 'max-age=300',
+200 silly get     'cf-cache-status': 'HIT',
+200 silly get     'cf-ray': '430264a529f86c70-SJC',
+200 silly get     etag: 'W/"032d1e4fd790b7bf3a22d4035271b1a6"',
+200 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+200 silly get     'last-modified': 'Sat, 26 May 2018 02:07:16 GMT',
+200 silly get     vary: 'accept-encoding, accept',
+200 silly get     server: 'cloudflare',
+200 silly get     'content-encoding': 'gzip' } ]
+201 verbose get saving bindings to C:\Users\xiany\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+202 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+203 silly resolveWithNewModule bindings@1.3.0 checking installable status
+204 silly cache add args [ 'bindings@^1.3.0', null ]
+205 verbose cache add spec bindings@^1.3.0
+206 silly cache add parsed spec Result {
+206 silly cache add   raw: 'bindings@^1.3.0',
+206 silly cache add   scope: null,
+206 silly cache add   escapedName: 'bindings',
+206 silly cache add   name: 'bindings',
+206 silly cache add   rawSpec: '^1.3.0',
+206 silly cache add   spec: '>=1.3.0 <2.0.0',
+206 silly cache add   type: 'range' }
+207 silly addNamed bindings@>=1.3.0 <2.0.0
+208 verbose addNamed ">=1.3.0 <2.0.0" is a valid semver range for bindings
+209 silly addNameRange { name: 'bindings', range: '>=1.3.0 <2.0.0', hasData: false }
+210 silly mapToRegistry name bindings
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry data Result {
+213 silly mapToRegistry   raw: 'bindings',
+213 silly mapToRegistry   scope: null,
+213 silly mapToRegistry   escapedName: 'bindings',
+213 silly mapToRegistry   name: 'bindings',
+213 silly mapToRegistry   rawSpec: '',
+213 silly mapToRegistry   spec: 'latest',
+213 silly mapToRegistry   type: 'tag' }
+214 silly mapToRegistry uri https://registry.npmjs.org/bindings
+215 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+216 verbose get https://registry.npmjs.org/bindings not expired, no request
+217 silly addNameRange number 2 { name: 'bindings', range: '>=1.3.0 <2.0.0', hasData: true }
+218 silly addNameRange versions [ 'bindings',
+218 silly addNameRange   [ '0.0.1',
+218 silly addNameRange     '0.1.0',
+218 silly addNameRange     '0.1.1',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.2.1',
+218 silly addNameRange     '0.2.2',
+218 silly addNameRange     '0.2.3',
+218 silly addNameRange     '0.2.4',
+218 silly addNameRange     '0.3.0',
+218 silly addNameRange     '0.4.0',
+218 silly addNameRange     '1.0.0',
+218 silly addNameRange     '1.1.0',
+218 silly addNameRange     '1.1.1',
+218 silly addNameRange     '1.2.0',
+218 silly addNameRange     '1.2.1',
+218 silly addNameRange     '1.3.0' ] ]
+219 silly addNamed bindings@1.3.0
+220 verbose addNamed "1.3.0" is a plain semver version for bindings
+221 http 200 https://registry.npmjs.org/nan
+222 verbose headers { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+222 verbose headers   'content-type': 'application/json; charset=UTF-8',
+222 verbose headers   'transfer-encoding': 'chunked',
+222 verbose headers   connection: 'keep-alive',
+222 verbose headers   'set-cookie': [ '__cfduid=da6068f495b7aa306c0d6c365e905cc3d1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+222 verbose headers   'cache-control': 'max-age=300',
+222 verbose headers   'cf-cache-status': 'HIT',
+222 verbose headers   'cf-ray': '430264a54f346cb8-SJC',
+222 verbose headers   etag: 'W/"249a7c29055ea21c4b8d244bd7b33a97"',
+222 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+222 verbose headers   'last-modified': 'Sun, 27 May 2018 09:01:11 GMT',
+222 verbose headers   vary: 'accept-encoding, accept',
+222 verbose headers   server: 'cloudflare',
+222 verbose headers   'content-encoding': 'gzip' }
+223 silly get cb [ 200,
+223 silly get   { date: 'Sun, 24 Jun 2018 21:47:29 GMT',
+223 silly get     'content-type': 'application/json; charset=UTF-8',
+223 silly get     'transfer-encoding': 'chunked',
+223 silly get     connection: 'keep-alive',
+223 silly get     'set-cookie': [ '__cfduid=da6068f495b7aa306c0d6c365e905cc3d1529876849; expires=Mon, 24-Jun-19 21:47:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+223 silly get     'cache-control': 'max-age=300',
+223 silly get     'cf-cache-status': 'HIT',
+223 silly get     'cf-ray': '430264a54f346cb8-SJC',
+223 silly get     etag: 'W/"249a7c29055ea21c4b8d244bd7b33a97"',
+223 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+223 silly get     'last-modified': 'Sun, 27 May 2018 09:01:11 GMT',
+223 silly get     vary: 'accept-encoding, accept',
+223 silly get     server: 'cloudflare',
+223 silly get     'content-encoding': 'gzip' } ]
+224 verbose get saving nan to C:\Users\xiany\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+225 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+226 silly mapToRegistry name bindings
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry data Result {
+229 silly mapToRegistry   raw: 'bindings',
+229 silly mapToRegistry   scope: null,
+229 silly mapToRegistry   escapedName: 'bindings',
+229 silly mapToRegistry   name: 'bindings',
+229 silly mapToRegistry   rawSpec: '',
+229 silly mapToRegistry   spec: 'latest',
+229 silly mapToRegistry   type: 'tag' }
+230 silly mapToRegistry uri https://registry.npmjs.org/bindings
+231 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz not in flight; adding
+232 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz',
+232 verbose addRemoteTarball   'b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7' ]
+233 info retry fetch attempt 1 at 2:47:28 PM
+234 info attempt registry request try #1 at 2:47:28 PM
+235 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+236 silly resolveWithNewModule nan@2.10.0 checking installable status
+237 silly cache add args [ 'nan@^2.10.0', null ]
+238 verbose cache add spec nan@^2.10.0
+239 silly cache add parsed spec Result {
+239 silly cache add   raw: 'nan@^2.10.0',
+239 silly cache add   scope: null,
+239 silly cache add   escapedName: 'nan',
+239 silly cache add   name: 'nan',
+239 silly cache add   rawSpec: '^2.10.0',
+239 silly cache add   spec: '>=2.10.0 <3.0.0',
+239 silly cache add   type: 'range' }
+240 silly addNamed nan@>=2.10.0 <3.0.0
+241 verbose addNamed ">=2.10.0 <3.0.0" is a valid semver range for nan
+242 silly addNameRange { name: 'nan', range: '>=2.10.0 <3.0.0', hasData: false }
+243 silly mapToRegistry name nan
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry data Result {
+246 silly mapToRegistry   raw: 'nan',
+246 silly mapToRegistry   scope: null,
+246 silly mapToRegistry   escapedName: 'nan',
+246 silly mapToRegistry   name: 'nan',
+246 silly mapToRegistry   rawSpec: '',
+246 silly mapToRegistry   spec: 'latest',
+246 silly mapToRegistry   type: 'tag' }
+247 silly mapToRegistry uri https://registry.npmjs.org/nan
+248 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+249 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+250 verbose get https://registry.npmjs.org/nan not expired, no request
+251 silly addNameRange number 2 { name: 'nan', range: '>=2.10.0 <3.0.0', hasData: true }
+252 silly addNameRange versions [ 'nan',
+252 silly addNameRange   [ '0.3.0-wip',
+252 silly addNameRange     '0.3.0-wip2',
+252 silly addNameRange     '0.3.0',
+252 silly addNameRange     '0.3.1',
+252 silly addNameRange     '0.3.2',
+252 silly addNameRange     '0.4.0',
+252 silly addNameRange     '0.4.1',
+252 silly addNameRange     '0.4.2',
+252 silly addNameRange     '0.4.3',
+252 silly addNameRange     '0.4.4',
+252 silly addNameRange     '0.5.0',
+252 silly addNameRange     '0.5.1',
+252 silly addNameRange     '0.5.2',
+252 silly addNameRange     '0.6.0',
+252 silly addNameRange     '0.7.0',
+252 silly addNameRange     '0.7.1',
+252 silly addNameRange     '0.8.0',
+252 silly addNameRange     '1.0.0',
+252 silly addNameRange     '1.1.0',
+252 silly addNameRange     '1.1.1',
+252 silly addNameRange     '1.1.2',
+252 silly addNameRange     '1.2.0',
+252 silly addNameRange     '1.3.0',
+252 silly addNameRange     '1.4.0',
+252 silly addNameRange     '1.4.1',
+252 silly addNameRange     '1.5.0',
+252 silly addNameRange     '1.4.2',
+252 silly addNameRange     '1.4.3',
+252 silly addNameRange     '1.5.1',
+252 silly addNameRange     '1.5.2',
+252 silly addNameRange     '1.6.0',
+252 silly addNameRange     '1.5.3',
+252 silly addNameRange     '1.6.1',
+252 silly addNameRange     '1.6.2',
+252 silly addNameRange     '1.7.0',
+252 silly addNameRange     '1.8.0',
+252 silly addNameRange     '1.8.1',
+252 silly addNameRange     '1.8.2',
+252 silly addNameRange     '1.8.3',
+252 silly addNameRange     '1.8.4',
+252 silly addNameRange     '1.9.0',
+252 silly addNameRange     '2.0.0',
+252 silly addNameRange     '2.0.1',
+252 silly addNameRange     '2.0.2',
+252 silly addNameRange     '2.0.3',
+252 silly addNameRange     '2.0.4',
+252 silly addNameRange     '2.0.5',
+252 silly addNameRange     '2.0.6',
+252 silly addNameRange     '2.0.7',
+252 silly addNameRange     '2.0.8',
+252 silly addNameRange     '2.0.9',
+252 silly addNameRange     '2.1.0',
+252 silly addNameRange     '2.2.0',
+252 silly addNameRange     '2.2.1',
+252 silly addNameRange     '2.3.0',
+252 silly addNameRange     '2.3.1',
+252 silly addNameRange     '2.3.2',
+252 silly addNameRange     '2.3.3',
+252 silly addNameRange     '2.3.4',
+252 silly addNameRange     '2.3.5',
+252 silly addNameRange     '2.4.0',
+252 silly addNameRange     '2.5.0',
+252 silly addNameRange     '2.5.1',
+252 silly addNameRange     '2.6.0',
+252 silly addNameRange     '2.6.1',
+252 silly addNameRange     '2.6.2',
+252 silly addNameRange     '2.7.0',
+252 silly addNameRange     '2.8.0',
+252 silly addNameRange     '2.9.1',
+252 silly addNameRange     '2.9.2',
+252 silly addNameRange     '2.10.0' ] ]
+253 silly addNamed nan@2.10.0
+254 verbose addNamed "2.10.0" is a plain semver version for nan
+255 silly fetchAndShaCheck shasum b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7
+256 verbose addTmpTarball C:\Users\xiany\AppData\Local\Temp\npm-6780-1f37bd78\registry.npmjs.org\bindings\-\bindings-1.3.0.tgz not in flight; adding
+257 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.3.0
+258 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+259 silly cache afterAdd nan@2.10.0
+260 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\nan\2.10.0\package\package.json not in flight; writing
+261 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+262 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\nan\2.10.0\package\package.json written
+263 silly cache afterAdd bindings@1.3.0
+264 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\bindings\1.3.0\package\package.json not in flight; writing
+265 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+266 verbose afterAdd C:\Users\xiany\AppData\Roaming\npm-cache\bindings\1.3.0\package\package.json written
+267 silly loadAllDepsIntoIdealTree Finishing
+268 silly loadIdealTree Finishing
+269 silly currentTree jarvis@1.0.0
+269 silly currentTree +-- accepts@1.3.5
+269 silly currentTree +-- ajv@5.5.2
+269 silly currentTree +-- array-flatten@1.1.1
+269 silly currentTree +-- asn1@0.2.3
+269 silly currentTree +-- assert-plus@1.0.0
+269 silly currentTree +-- asynckit@0.4.0
+269 silly currentTree +-- aws-sign2@0.7.0
+269 silly currentTree +-- aws4@1.7.0
+269 silly currentTree +-- bcrypt-pbkdf@1.0.1
+269 silly currentTree +-- body-parser@1.18.2
+269 silly currentTree +-- boom@4.3.1
+269 silly currentTree +-- bytes@3.0.0
+269 silly currentTree +-- caseless@0.12.0
+269 silly currentTree +-- co@4.6.0
+269 silly currentTree +-- combined-stream@1.0.6
+269 silly currentTree +-- content-disposition@0.5.2
+269 silly currentTree +-- content-type@1.0.4
+269 silly currentTree +-- cookie-signature@1.0.6
+269 silly currentTree +-- cookie@0.3.1
+269 silly currentTree +-- core-util-is@1.0.2
+269 silly currentTree +-- cryptiles@3.1.2
+269 silly currentTree | `-- boom@5.2.0
+269 silly currentTree +-- dashdash@1.14.1
+269 silly currentTree +-- debug@2.6.9
+269 silly currentTree +-- delayed-stream@1.0.0
+269 silly currentTree +-- depd@1.1.2
+269 silly currentTree +-- destroy@1.0.4
+269 silly currentTree +-- ecc-jsbn@0.1.1
+269 silly currentTree +-- ee-first@1.1.1
+269 silly currentTree +-- encodeurl@1.0.2
+269 silly currentTree +-- escape-html@1.0.3
+269 silly currentTree +-- etag@1.8.1
+269 silly currentTree +-- express@4.16.3
+269 silly currentTree +-- extend@3.0.1
+269 silly currentTree +-- extsprintf@1.3.0
+269 silly currentTree +-- fast-deep-equal@1.1.0
+269 silly currentTree +-- fast-json-stable-stringify@2.0.0
+269 silly currentTree +-- finalhandler@1.1.1
+269 silly currentTree +-- forever-agent@0.6.1
+269 silly currentTree +-- form-data@2.3.2
+269 silly currentTree +-- forwarded@0.1.2
+269 silly currentTree +-- fresh@0.5.2
+269 silly currentTree +-- getpass@0.1.7
+269 silly currentTree +-- har-schema@2.0.0
+269 silly currentTree +-- har-validator@5.0.3
+269 silly currentTree +-- hawk@6.0.2
+269 silly currentTree +-- hoek@4.2.1
+269 silly currentTree +-- http-errors@1.6.3
+269 silly currentTree +-- http-signature@1.2.0
+269 silly currentTree +-- iconv-lite@0.4.19
+269 silly currentTree +-- inherits@2.0.3
+269 silly currentTree +-- ipaddr.js@1.6.0
+269 silly currentTree +-- is-typedarray@1.0.0
+269 silly currentTree +-- is-wsl@1.1.0
+269 silly currentTree +-- isstream@0.1.2
+269 silly currentTree +-- jsbn@0.1.1
+269 silly currentTree +-- json-schema-traverse@0.3.1
+269 silly currentTree +-- json-schema@0.2.3
+269 silly currentTree +-- json-stringify-safe@5.0.1
+269 silly currentTree +-- jsprim@1.4.1
+269 silly currentTree +-- media-typer@0.3.0
+269 silly currentTree +-- merge-descriptors@1.0.1
+269 silly currentTree +-- methods@1.1.2
+269 silly currentTree +-- mime-db@1.33.0
+269 silly currentTree +-- mime-types@2.1.18
+269 silly currentTree +-- mime@1.4.1
+269 silly currentTree +-- ms@2.0.0
+269 silly currentTree +-- negotiator@0.6.1
+269 silly currentTree +-- oauth-sign@0.8.2
+269 silly currentTree +-- on-finished@2.3.0
+269 silly currentTree +-- one-time@0.0.4
+269 silly currentTree +-- opn@5.3.0
+269 silly currentTree +-- parseurl@1.3.2
+269 silly currentTree +-- path-to-regexp@0.1.7
+269 silly currentTree +-- performance-now@2.1.0
+269 silly currentTree +-- proxy-addr@2.0.3
+269 silly currentTree +-- punycode@1.4.1
+269 silly currentTree +-- qs@6.5.1
+269 silly currentTree +-- range-parser@1.2.0
+269 silly currentTree +-- raw-body@2.3.2
+269 silly currentTree | +-- depd@1.1.1
+269 silly currentTree | +-- http-errors@1.6.2
+269 silly currentTree | `-- setprototypeof@1.0.3
+269 silly currentTree +-- request@2.85.0
+269 silly currentTree +-- safe-buffer@5.1.1
+269 silly currentTree +-- say@0.14.0
+269 silly currentTree +-- send@0.16.2
+269 silly currentTree +-- serve-static@1.13.2
+269 silly currentTree +-- setprototypeof@1.1.0
+269 silly currentTree +-- sntp@2.1.0
+269 silly currentTree +-- sshpk@1.14.1
+269 silly currentTree +-- statuses@1.4.0
+269 silly currentTree +-- stringstream@0.0.5
+269 silly currentTree +-- tough-cookie@2.3.4
+269 silly currentTree +-- tunnel-agent@0.6.0
+269 silly currentTree +-- tweetnacl@0.14.5
+269 silly currentTree +-- type-is@1.6.16
+269 silly currentTree +-- unpipe@1.0.0
+269 silly currentTree +-- utils-merge@1.0.1
+269 silly currentTree +-- uuid@3.2.1
+269 silly currentTree +-- vary@1.1.2
+269 silly currentTree `-- verror@1.10.0
+270 silly idealTree jarvis@1.0.0
+270 silly idealTree +-- accepts@1.3.5
+270 silly idealTree +-- ajv@5.5.2
+270 silly idealTree +-- array-flatten@1.1.1
+270 silly idealTree +-- asn1@0.2.3
+270 silly idealTree +-- assert-plus@1.0.0
+270 silly idealTree +-- asynckit@0.4.0
+270 silly idealTree +-- aws-sign2@0.7.0
+270 silly idealTree +-- aws4@1.7.0
+270 silly idealTree +-- bcrypt-pbkdf@1.0.1
+270 silly idealTree +-- bindings@1.3.0
+270 silly idealTree +-- body-parser@1.18.2
+270 silly idealTree +-- boom@4.3.1
+270 silly idealTree +-- bytes@3.0.0
+270 silly idealTree +-- caseless@0.12.0
+270 silly idealTree +-- co@4.6.0
+270 silly idealTree +-- combined-stream@1.0.6
+270 silly idealTree +-- content-disposition@0.5.2
+270 silly idealTree +-- content-type@1.0.4
+270 silly idealTree +-- cookie-signature@1.0.6
+270 silly idealTree +-- cookie@0.3.1
+270 silly idealTree +-- core-util-is@1.0.2
+270 silly idealTree +-- cryptiles@3.1.2
+270 silly idealTree | `-- boom@5.2.0
+270 silly idealTree +-- dashdash@1.14.1
+270 silly idealTree +-- debug@2.6.9
+270 silly idealTree +-- delayed-stream@1.0.0
+270 silly idealTree +-- depd@1.1.2
+270 silly idealTree +-- destroy@1.0.4
+270 silly idealTree +-- ecc-jsbn@0.1.1
+270 silly idealTree +-- ee-first@1.1.1
+270 silly idealTree +-- encodeurl@1.0.2
+270 silly idealTree +-- epoll@2.0.1
+270 silly idealTree +-- escape-html@1.0.3
+270 silly idealTree +-- etag@1.8.1
+270 silly idealTree +-- express@4.16.3
+270 silly idealTree +-- extend@3.0.1
+270 silly idealTree +-- extsprintf@1.3.0
+270 silly idealTree +-- fast-deep-equal@1.1.0
+270 silly idealTree +-- fast-json-stable-stringify@2.0.0
+270 silly idealTree +-- finalhandler@1.1.1
+270 silly idealTree +-- forever-agent@0.6.1
+270 silly idealTree +-- form-data@2.3.2
+270 silly idealTree +-- forwarded@0.1.2
+270 silly idealTree +-- fresh@0.5.2
+270 silly idealTree +-- getpass@0.1.7
+270 silly idealTree +-- har-schema@2.0.0
+270 silly idealTree +-- har-validator@5.0.3
+270 silly idealTree +-- hawk@6.0.2
+270 silly idealTree +-- hoek@4.2.1
+270 silly idealTree +-- http-errors@1.6.3
+270 silly idealTree +-- http-signature@1.2.0
+270 silly idealTree +-- iconv-lite@0.4.19
+270 silly idealTree +-- inherits@2.0.3
+270 silly idealTree +-- ipaddr.js@1.6.0
+270 silly idealTree +-- is-typedarray@1.0.0
+270 silly idealTree +-- is-wsl@1.1.0
+270 silly idealTree +-- isstream@0.1.2
+270 silly idealTree +-- jsbn@0.1.1
+270 silly idealTree +-- json-schema-traverse@0.3.1
+270 silly idealTree +-- json-schema@0.2.3
+270 silly idealTree +-- json-stringify-safe@5.0.1
+270 silly idealTree +-- jsprim@1.4.1
+270 silly idealTree +-- lodash.debounce@4.0.8
+270 silly idealTree +-- media-typer@0.3.0
+270 silly idealTree +-- merge-descriptors@1.0.1
+270 silly idealTree +-- methods@1.1.2
+270 silly idealTree +-- mime-db@1.33.0
+270 silly idealTree +-- mime-types@2.1.18
+270 silly idealTree +-- mime@1.4.1
+270 silly idealTree +-- ms@2.0.0
+270 silly idealTree +-- nan@2.10.0
+270 silly idealTree +-- negotiator@0.6.1
+270 silly idealTree +-- oauth-sign@0.8.2
+270 silly idealTree +-- on-finished@2.3.0
+270 silly idealTree +-- one-time@0.0.4
+270 silly idealTree +-- onoff@3.1.0
+270 silly idealTree +-- opn@5.3.0
+270 silly idealTree +-- parseurl@1.3.2
+270 silly idealTree +-- path-to-regexp@0.1.7
+270 silly idealTree +-- performance-now@2.1.0
+270 silly idealTree +-- proxy-addr@2.0.3
+270 silly idealTree +-- punycode@1.4.1
+270 silly idealTree +-- qs@6.5.1
+270 silly idealTree +-- range-parser@1.2.0
+270 silly idealTree +-- raw-body@2.3.2
+270 silly idealTree | +-- depd@1.1.1
+270 silly idealTree | +-- http-errors@1.6.2
+270 silly idealTree | `-- setprototypeof@1.0.3
+270 silly idealTree +-- request@2.85.0
+270 silly idealTree +-- safe-buffer@5.1.1
+270 silly idealTree +-- say@0.14.0
+270 silly idealTree +-- send@0.16.2
+270 silly idealTree +-- serve-static@1.13.2
+270 silly idealTree +-- setprototypeof@1.1.0
+270 silly idealTree +-- sntp@2.1.0
+270 silly idealTree +-- sshpk@1.14.1
+270 silly idealTree +-- statuses@1.4.0
+270 silly idealTree +-- stringstream@0.0.5
+270 silly idealTree +-- tough-cookie@2.3.4
+270 silly idealTree +-- tunnel-agent@0.6.0
+270 silly idealTree +-- tweetnacl@0.14.5
+270 silly idealTree +-- type-is@1.6.16
+270 silly idealTree +-- unpipe@1.0.0
+270 silly idealTree +-- utils-merge@1.0.1
+270 silly idealTree +-- uuid@3.2.1
+270 silly idealTree +-- vary@1.1.2
+270 silly idealTree `-- verror@1.10.0
+271 silly generateActionsToTake Starting
+272 silly install generateActionsToTake
+273 silly generateActionsToTake Finishing
+274 silly diffTrees action count 5
+275 silly diffTrees add bindings@1.3.0
+276 silly diffTrees add nan@2.10.0
+277 silly diffTrees add epoll@2.0.1
+278 silly diffTrees add lodash.debounce@4.0.8
+279 silly diffTrees add onoff@3.1.0
+280 silly decomposeActions action count 40
+281 silly decomposeActions fetch bindings@1.3.0
+282 silly decomposeActions extract bindings@1.3.0
+283 silly decomposeActions test bindings@1.3.0
+284 silly decomposeActions preinstall bindings@1.3.0
+285 silly decomposeActions build bindings@1.3.0
+286 silly decomposeActions install bindings@1.3.0
+287 silly decomposeActions postinstall bindings@1.3.0
+288 silly decomposeActions finalize bindings@1.3.0
+289 silly decomposeActions fetch nan@2.10.0
+290 silly decomposeActions extract nan@2.10.0
+291 silly decomposeActions test nan@2.10.0
+292 silly decomposeActions preinstall nan@2.10.0
+293 silly decomposeActions build nan@2.10.0
+294 silly decomposeActions install nan@2.10.0
+295 silly decomposeActions postinstall nan@2.10.0
+296 silly decomposeActions finalize nan@2.10.0
+297 silly decomposeActions fetch epoll@2.0.1
+298 silly decomposeActions extract epoll@2.0.1
+299 silly decomposeActions test epoll@2.0.1
+300 silly decomposeActions preinstall epoll@2.0.1
+301 silly decomposeActions build epoll@2.0.1
+302 silly decomposeActions install epoll@2.0.1
+303 silly decomposeActions postinstall epoll@2.0.1
+304 silly decomposeActions finalize epoll@2.0.1
+305 silly decomposeActions fetch lodash.debounce@4.0.8
+306 silly decomposeActions extract lodash.debounce@4.0.8
+307 silly decomposeActions test lodash.debounce@4.0.8
+308 silly decomposeActions preinstall lodash.debounce@4.0.8
+309 silly decomposeActions build lodash.debounce@4.0.8
+310 silly decomposeActions install lodash.debounce@4.0.8
+311 silly decomposeActions postinstall lodash.debounce@4.0.8
+312 silly decomposeActions finalize lodash.debounce@4.0.8
+313 silly decomposeActions fetch onoff@3.1.0
+314 silly decomposeActions extract onoff@3.1.0
+315 silly decomposeActions test onoff@3.1.0
+316 silly decomposeActions preinstall onoff@3.1.0
+317 silly decomposeActions build onoff@3.1.0
+318 silly decomposeActions install onoff@3.1.0
+319 silly decomposeActions postinstall onoff@3.1.0
+320 silly decomposeActions finalize onoff@3.1.0
+321 silly runTopLevelLifecycles Starting
+322 silly executeActions Starting
+323 silly install executeActions
+324 silly doSerial global-install 0
+325 silly doParallel fetch 5
+326 verbose correctMkdir C:\Users\xiany\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+327 verbose lock using C:\Users\xiany\AppData\Roaming\npm-cache\_locks\staging-bcb083282c2b36c4.lock for C:\Users\xiany\jarvis\node_modules\.staging
+328 silly doParallel extract 5
+329 silly extract bindings@1.3.0
+330 silly extract nan@2.10.0
+331 silly extract epoll@2.0.1
+332 silly extract lodash.debounce@4.0.8
+333 silly extract onoff@3.1.0
+334 verbose unbuild node_modules\.staging\bindings-1a126d20
+335 verbose unbuild node_modules\.staging\epoll-43ded3b9
+336 verbose unbuild node_modules\.staging\lodash.debounce-0003ba2f
+337 verbose unbuild node_modules\.staging\nan-d03afadf
+338 verbose unbuild node_modules\.staging\onoff-1be4b1dd
+339 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20 is being purged from base C:\Users\xiany\jarvis
+340 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20
+341 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9 is being purged from base C:\Users\xiany\jarvis
+342 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9
+343 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f is being purged from base C:\Users\xiany\jarvis
+344 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f
+345 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf is being purged from base C:\Users\xiany\jarvis
+346 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf
+347 verbose tar unpack C:\Users\xiany\AppData\Roaming\npm-cache\bindings\1.3.0\package.tgz
+348 verbose tar unpacking to C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20
+349 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20 is being purged
+350 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20
+351 verbose tar unpack C:\Users\xiany\AppData\Roaming\npm-cache\epoll\2.0.1\package.tgz
+352 verbose tar unpacking to C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9
+353 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9 is being purged
+354 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9
+355 verbose tar unpack C:\Users\xiany\AppData\Roaming\npm-cache\lodash.debounce\4.0.8\package.tgz
+356 verbose tar unpacking to C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f
+357 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f is being purged
+358 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f
+359 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd is being purged from base C:\Users\xiany\jarvis
+360 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd
+361 verbose tar unpack C:\Users\xiany\AppData\Roaming\npm-cache\nan\2.10.0\package.tgz
+362 verbose tar unpacking to C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf
+363 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf is being purged
+364 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf
+365 silly gunzTarPerm modes [ '777', '666' ]
+366 silly gunzTarPerm modes [ '777', '666' ]
+367 silly gunzTarPerm modes [ '777', '666' ]
+368 verbose tar unpack C:\Users\xiany\AppData\Roaming\npm-cache\onoff\3.1.0\package.tgz
+369 verbose tar unpacking to C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd
+370 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd is being purged
+371 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd
+372 silly gunzTarPerm modes [ '777', '666' ]
+373 silly gunzTarPerm modes [ '777', '666' ]
+374 silly gunzTarPerm extractEntry package.json
+375 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+376 silly gunzTarPerm extractEntry package.json
+377 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+378 silly gunzTarPerm extractEntry package.json
+379 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+380 silly gunzTarPerm extractEntry package.json
+381 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+382 silly gunzTarPerm extractEntry package.json
+383 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+384 silly gunzTarPerm extractEntry README.md
+385 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+386 silly gunzTarPerm extractEntry bindings.js
+387 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+388 silly gunzTarPerm extractEntry README.md
+389 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+390 silly gunzTarPerm extractEntry LICENSE
+391 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+392 silly gunzTarPerm extractEntry binding.gyp
+393 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+394 silly gunzTarPerm extractEntry epoll.js
+395 silly gunzTarPerm modified mode [ 'epoll.js', 436, 438 ]
+396 silly gunzTarPerm extractEntry CHANGELOG.md
+397 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+398 silly gunzTarPerm extractEntry include_dirs.js
+399 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+400 silly gunzTarPerm extractEntry History.md
+401 silly gunzTarPerm modified mode [ 'History.md', 436, 438 ]
+402 silly gunzTarPerm extractEntry LICENSE
+403 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+404 silly gunzTarPerm extractEntry History.md
+405 silly gunzTarPerm modified mode [ 'History.md', 436, 438 ]
+406 silly gunzTarPerm extractEntry LICENSE
+407 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+408 silly gunzTarPerm extractEntry index.js
+409 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+410 silly gunzTarPerm extractEntry LICENSE.md
+411 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+412 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+413 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+414 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+415 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+416 silly gunzTarPerm extractEntry nan_callbacks.h
+417 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+418 silly gunzTarPerm extractEntry onoff.js
+419 silly gunzTarPerm modified mode [ 'onoff.js', 436, 438 ]
+420 silly gunzTarPerm extractEntry README.md
+421 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+422 silly gunzTarPerm extractEntry README.md
+423 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+424 silly gunzTarPerm extractEntry example/interrupts-per-second/export
+425 silly gunzTarPerm modified mode [ 'example/interrupts-per-second/export', 509, 511 ]
+426 silly gunzTarPerm extractEntry example/interrupts-per-second/interrupts-per-second.js
+427 silly gunzTarPerm modified mode [ 'example/interrupts-per-second/interrupts-per-second.js',
+427 silly gunzTarPerm   436,
+427 silly gunzTarPerm   438 ]
+428 silly gunzTarPerm extractEntry example/interrupts-per-second/unexport
+429 silly gunzTarPerm modified mode [ 'example/interrupts-per-second/unexport', 509, 511 ]
+430 silly gunzTarPerm extractEntry example/watch-button/export
+431 silly gunzTarPerm modified mode [ 'example/watch-button/export', 509, 511 ]
+432 silly gunzTarPerm extractEntry example/watch-button/unexport
+433 silly gunzTarPerm modified mode [ 'example/watch-button/unexport', 509, 511 ]
+434 silly gunzTarPerm extractEntry example/watch-button/watch-button.js
+435 silly gunzTarPerm modified mode [ 'example/watch-button/watch-button.js', 436, 438 ]
+436 silly gunzTarPerm extractEntry src/epoll.cc
+437 silly gunzTarPerm modified mode [ 'src/epoll.cc', 436, 438 ]
+438 silly gunzTarPerm extractEntry src/epoll.h
+439 silly gunzTarPerm modified mode [ 'src/epoll.h', 436, 438 ]
+440 silly gunzTarPerm extractEntry test/brute-force-leak-check.js
+441 silly gunzTarPerm modified mode [ 'test/brute-force-leak-check.js', 436, 438 ]
+442 silly gunzTarPerm extractEntry test/closed.js
+443 silly gunzTarPerm modified mode [ 'test/closed.js', 436, 438 ]
+444 silly gunzTarPerm extractEntry test/do-almost-nothing.js
+445 silly gunzTarPerm modified mode [ 'test/do-almost-nothing.js', 436, 438 ]
+446 silly gunzTarPerm extractEntry test/do-nothing.js
+447 silly gunzTarPerm modified mode [ 'test/do-nothing.js', 436, 438 ]
+448 silly gunzTarPerm extractEntry test/no-gc-allowed.js
+449 silly gunzTarPerm modified mode [ 'test/no-gc-allowed.js', 436, 438 ]
+450 silly gunzTarPerm extractEntry test/one-shot.js
+451 silly gunzTarPerm modified mode [ 'test/one-shot.js', 436, 438 ]
+452 silly gunzTarPerm extractEntry test/performance-check.js
+453 silly gunzTarPerm modified mode [ 'test/performance-check.js', 436, 438 ]
+454 silly gunzTarPerm extractEntry test/run-tests
+455 silly gunzTarPerm modified mode [ 'test/run-tests', 509, 511 ]
+456 silly gunzTarPerm extractEntry test/two-shot.js
+457 silly gunzTarPerm modified mode [ 'test/two-shot.js', 436, 438 ]
+458 silly gunzTarPerm extractEntry test/util.js
+459 silly gunzTarPerm modified mode [ 'test/util.js', 436, 438 ]
+460 silly gunzTarPerm extractEntry test/verify-events.js
+461 silly gunzTarPerm modified mode [ 'test/verify-events.js', 436, 438 ]
+462 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+463 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+464 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+465 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+466 silly gunzTarPerm extractEntry examples/accessible.js
+467 silly gunzTarPerm modified mode [ 'examples/accessible.js', 436, 438 ]
+468 silly gunzTarPerm extractEntry examples/blink-led-async.js
+469 silly gunzTarPerm modified mode [ 'examples/blink-led-async.js', 436, 438 ]
+470 silly gunzTarPerm extractEntry nan_converters.h
+471 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+472 silly gunzTarPerm extractEntry nan_define_own_property_helper.h
+473 silly gunzTarPerm modified mode [ 'nan_define_own_property_helper.h', 436, 438 ]
+474 silly gunzTarPerm extractEntry examples/blink-led.js
+475 silly gunzTarPerm modified mode [ 'examples/blink-led.js', 436, 438 ]
+476 silly gunzTarPerm extractEntry examples/debounce-button.js
+477 silly gunzTarPerm modified mode [ 'examples/debounce-button.js', 436, 438 ]
+478 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+479 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+480 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+481 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+482 silly gunzTarPerm extractEntry nan_json.h
+483 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+484 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+485 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+486 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20\node_modules is being purged
+487 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20\node_modules
+488 silly gunzTarPerm extractEntry examples/light-switch.js
+489 silly gunzTarPerm modified mode [ 'examples/light-switch.js', 436, 438 ]
+490 silly gunzTarPerm extractEntry examples/light-switch.png
+491 silly gunzTarPerm modified mode [ 'examples/light-switch.png', 436, 438 ]
+492 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+493 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+494 silly gunzTarPerm extractEntry nan_new.h
+495 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+496 silly gunzTarPerm extractEntry nan_object_wrap.h
+497 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+498 silly gunzTarPerm extractEntry examples/mygpio-overlay.dts
+499 silly gunzTarPerm modified mode [ 'examples/mygpio-overlay.dts', 436, 438 ]
+500 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f\node_modules is being purged
+501 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f\node_modules
+502 silly gunzTarPerm extractEntry examples/run-examples
+503 silly gunzTarPerm modified mode [ 'examples/run-examples', 509, 511 ]
+504 silly gunzTarPerm extractEntry examples/wait-for-interrupt.js
+505 silly gunzTarPerm modified mode [ 'examples/wait-for-interrupt.js', 436, 438 ]
+506 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+507 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+508 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+509 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+510 silly gunzTarPerm extractEntry test/blink-led.js
+511 silly gunzTarPerm modified mode [ 'test/blink-led.js', 436, 438 ]
+512 silly gunzTarPerm extractEntry test/change-configuration.js
+513 silly gunzTarPerm modified mode [ 'test/change-configuration.js', 436, 438 ]
+514 silly gunzTarPerm extractEntry nan_private.h
+515 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+516 silly gunzTarPerm extractEntry nan_string_bytes.h
+517 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+518 silly gunzTarPerm extractEntry test/configure-and-check-active-low.js
+519 silly gunzTarPerm modified mode [ 'test/configure-and-check-active-low.js', 436, 438 ]
+520 silly gunzTarPerm extractEntry test/configure-and-check-input.js
+521 silly gunzTarPerm modified mode [ 'test/configure-and-check-input.js', 436, 438 ]
+522 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+523 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+524 silly gunzTarPerm extractEntry nan_weak.h
+525 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+526 silly gunzTarPerm extractEntry test/configure-and-check-output.js
+527 silly gunzTarPerm modified mode [ 'test/configure-and-check-output.js', 436, 438 ]
+528 silly gunzTarPerm extractEntry test/debounce.js
+529 silly gunzTarPerm modified mode [ 'test/debounce.js', 436, 438 ]
+530 silly gunzTarPerm extractEntry nan.h
+531 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+532 silly gunzTarPerm extractEntry README.md
+533 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+534 silly gunzTarPerm extractEntry test/export-many-times.js
+535 silly gunzTarPerm modified mode [ 'test/export-many-times.js', 436, 438 ]
+536 silly gunzTarPerm extractEntry test/many-interrupts.js
+537 silly gunzTarPerm modified mode [ 'test/many-interrupts.js', 436, 438 ]
+538 silly gunzTarPerm extractEntry doc/asyncworker.md
+539 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+540 silly gunzTarPerm extractEntry doc/buffers.md
+541 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+542 silly gunzTarPerm extractEntry test/output-with-edge-bug.js
+543 silly gunzTarPerm modified mode [ 'test/output-with-edge-bug.js', 436, 438 ]
+544 silly gunzTarPerm extractEntry test/performance-async.js
+545 silly gunzTarPerm modified mode [ 'test/performance-async.js', 436, 438 ]
+546 silly gunzTarPerm extractEntry test/performance-interrupt.js
+547 silly gunzTarPerm modified mode [ 'test/performance-interrupt.js', 436, 438 ]
+548 silly gunzTarPerm extractEntry test/performance-sync.js
+549 silly gunzTarPerm modified mode [ 'test/performance-sync.js', 436, 438 ]
+550 silly gunzTarPerm extractEntry test/run-performance-tests
+551 silly gunzTarPerm modified mode [ 'test/run-performance-tests', 509, 511 ]
+552 silly gunzTarPerm extractEntry doc/callback.md
+553 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+554 silly gunzTarPerm extractEntry doc/converters.md
+555 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+556 silly gunzTarPerm extractEntry test/run-tests
+557 silly gunzTarPerm modified mode [ 'test/run-tests', 509, 511 ]
+558 silly gunzTarPerm extractEntry test/wait-for-interrupt.js
+559 silly gunzTarPerm modified mode [ 'test/wait-for-interrupt.js', 436, 438 ]
+560 silly gunzTarPerm extractEntry test/wait-for-many-interrupts.js
+561 silly gunzTarPerm modified mode [ 'test/wait-for-many-interrupts.js', 436, 438 ]
+562 silly gunzTarPerm extractEntry doc/errors.md
+563 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+564 silly gunzTarPerm extractEntry doc/json.md
+565 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+566 silly gunzTarPerm extractEntry doc/maybe_types.md
+567 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+568 silly gunzTarPerm extractEntry doc/methods.md
+569 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+570 silly gunzTarPerm extractEntry doc/new.md
+571 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+572 silly gunzTarPerm extractEntry doc/node_misc.md
+573 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+574 silly gunzTarPerm extractEntry doc/object_wrappers.md
+575 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+576 silly gunzTarPerm extractEntry doc/persistent.md
+577 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+578 silly gunzTarPerm extractEntry doc/scopes.md
+579 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+580 silly gunzTarPerm extractEntry doc/script.md
+581 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+582 silly gunzTarPerm extractEntry doc/string_bytes.md
+583 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+584 silly gunzTarPerm extractEntry doc/v8_internals.md
+585 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+586 silly gunzTarPerm extractEntry doc/v8_misc.md
+587 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+588 silly gunzTarPerm extractEntry tools/1to2.js
+589 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+590 silly gunzTarPerm extractEntry tools/package.json
+591 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+592 silly gunzTarPerm extractEntry tools/README.md
+593 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+594 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9\node_modules is being purged
+595 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9\node_modules
+596 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd\node_modules is being purged
+597 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd\node_modules
+598 silly gentlyRm C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf\node_modules is being purged
+599 verbose gentlyRm don't care about contents; nuking C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf\node_modules
+600 silly doParallel preinstall 5
+601 silly preinstall bindings@1.3.0 C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20
+602 info lifecycle bindings@1.3.0~preinstall: bindings@1.3.0
+603 silly preinstall nan@2.10.0 C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf
+604 info lifecycle nan@2.10.0~preinstall: nan@2.10.0
+605 silly preinstall epoll@2.0.1 C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9
+606 info lifecycle epoll@2.0.1~preinstall: epoll@2.0.1
+607 silly preinstall lodash.debounce@4.0.8 C:\Users\xiany\jarvis\node_modules\.staging\lodash.debounce-0003ba2f
+608 info lifecycle lodash.debounce@4.0.8~preinstall: lodash.debounce@4.0.8
+609 silly preinstall onoff@3.1.0 C:\Users\xiany\jarvis\node_modules\.staging\onoff-1be4b1dd
+610 info lifecycle onoff@3.1.0~preinstall: onoff@3.1.0
+611 silly lifecycle bindings@1.3.0~preinstall: no script for preinstall, continuing
+612 silly lifecycle nan@2.10.0~preinstall: no script for preinstall, continuing
+613 silly lifecycle epoll@2.0.1~preinstall: no script for preinstall, continuing
+614 silly lifecycle lodash.debounce@4.0.8~preinstall: no script for preinstall, continuing
+615 silly lifecycle onoff@3.1.0~preinstall: no script for preinstall, continuing
+616 silly doReverseSerial remove 0
+617 silly doSerial move 0
+618 silly doSerial finalize 5
+619 silly finalize C:\Users\xiany\jarvis\node_modules\bindings
+620 silly finalize C:\Users\xiany\jarvis\node_modules\nan
+621 silly finalize C:\Users\xiany\jarvis\node_modules\epoll
+622 silly finalize C:\Users\xiany\jarvis\node_modules\lodash.debounce
+623 silly finalize C:\Users\xiany\jarvis\node_modules\onoff
+624 silly doSerial build 5
+625 silly build bindings@1.3.0
+626 info linkStuff bindings@1.3.0
+627 silly linkStuff bindings@1.3.0 has C:\Users\xiany\jarvis\node_modules as its parent node_modules
+628 verbose linkBins bindings@1.3.0
+629 verbose linkMans bindings@1.3.0
+630 silly build nan@2.10.0
+631 info linkStuff nan@2.10.0
+632 silly linkStuff nan@2.10.0 has C:\Users\xiany\jarvis\node_modules as its parent node_modules
+633 verbose linkBins nan@2.10.0
+634 verbose linkMans nan@2.10.0
+635 silly build epoll@2.0.1
+636 info linkStuff epoll@2.0.1
+637 silly linkStuff epoll@2.0.1 has C:\Users\xiany\jarvis\node_modules as its parent node_modules
+638 verbose linkBins epoll@2.0.1
+639 verbose linkMans epoll@2.0.1
+640 silly build lodash.debounce@4.0.8
+641 info linkStuff lodash.debounce@4.0.8
+642 silly linkStuff lodash.debounce@4.0.8 has C:\Users\xiany\jarvis\node_modules as its parent node_modules
+643 verbose linkBins lodash.debounce@4.0.8
+644 verbose linkMans lodash.debounce@4.0.8
+645 silly build onoff@3.1.0
+646 info linkStuff onoff@3.1.0
+647 silly linkStuff onoff@3.1.0 has C:\Users\xiany\jarvis\node_modules as its parent node_modules
+648 verbose linkBins onoff@3.1.0
+649 verbose linkMans onoff@3.1.0
+650 silly doSerial global-link 0
+651 silly doParallel update-linked 0
+652 silly doSerial install 5
+653 silly install bindings@1.3.0 C:\Users\xiany\jarvis\node_modules\.staging\bindings-1a126d20
+654 info lifecycle bindings@1.3.0~install: bindings@1.3.0
+655 silly lifecycle bindings@1.3.0~install: no script for install, continuing
+656 silly install nan@2.10.0 C:\Users\xiany\jarvis\node_modules\.staging\nan-d03afadf
+657 info lifecycle nan@2.10.0~install: nan@2.10.0
+658 silly lifecycle nan@2.10.0~install: no script for install, continuing
+659 silly install epoll@2.0.1 C:\Users\xiany\jarvis\node_modules\.staging\epoll-43ded3b9
+660 info lifecycle epoll@2.0.1~install: epoll@2.0.1
+661 verbose lifecycle epoll@2.0.1~install: unsafe-perm in lifecycle true
+662 verbose lifecycle epoll@2.0.1~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\xiany\jarvis\node_modules\epoll\node_modules\.bin;C:\Users\xiany\jarvis\node_modules\.bin;.;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Java\jre1.8.0_102\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Users\xiany\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\xiany\AppData\Roaming\npm;C:\Python34\;C:\Python34\scripts;C:\Users\xiany\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+663 verbose lifecycle epoll@2.0.1~install: CWD: C:\Users\xiany\jarvis\node_modules\epoll
+664 silly lifecycle epoll@2.0.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+665 silly lifecycle epoll@2.0.1~install: Returned: code: 1  signal: null
+666 info lifecycle epoll@2.0.1~install: Failed to exec install script
+667 verbose unlock done using C:\Users\xiany\AppData\Roaming\npm-cache\_locks\staging-bcb083282c2b36c4.lock for C:\Users\xiany\jarvis\node_modules\.staging
+668 silly rollbackFailedOptional Starting
+669 silly rollbackFailedOptional Finishing
+670 silly runTopLevelLifecycles Finishing
+671 silly install printInstalled
+672 warn jarvis@1.0.0 No description
+673 verbose If you need help, you may report this error at:
+673 verbose     <https://github.com/npm/npm/issues>
+674 warn jarvis@1.0.0 No repository field.
+675 verbose If you need help, you may report this error at:
+675 verbose     <https://github.com/npm/npm/issues>
+676 verbose stack Error: epoll@2.0.1 install: `node-gyp rebuild`
+676 verbose stack Exit status 1
+676 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+676 verbose stack     at emitTwo (events.js:106:13)
+676 verbose stack     at EventEmitter.emit (events.js:191:7)
+676 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+676 verbose stack     at emitTwo (events.js:106:13)
+676 verbose stack     at ChildProcess.emit (events.js:191:7)
+676 verbose stack     at maybeClose (internal/child_process.js:877:16)
+676 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+677 verbose pkgid epoll@2.0.1
+678 verbose cwd C:\Users\xiany\jarvis
+679 error Windows_NT 10.0.17134
+680 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "onoff" "--save"
+681 error node v6.9.1
+682 error npm  v3.10.8
+683 error code ELIFECYCLE
+684 error epoll@2.0.1 install: `node-gyp rebuild`
+684 error Exit status 1
+685 error Failed at the epoll@2.0.1 install script 'node-gyp rebuild'.
+685 error Make sure you have the latest version of node.js and npm installed.
+685 error If you do, this is most likely a problem with the epoll package,
+685 error not with npm itself.
+685 error Tell the author that this fails on your system:
+685 error     node-gyp rebuild
+685 error You can get information on how to open an issue for this project with:
+685 error     npm bugs epoll
+685 error Or if that isn't available, you can get their info via:
+685 error     npm owner ls epoll
+685 error There is likely additional logging output above.
+686 verbose exit [ 1, true ]
